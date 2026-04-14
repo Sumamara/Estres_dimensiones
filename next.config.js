@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/estres_dimensiones',
+  basePath: '/Estres_dimensiones',
   reactStrictMode: true,
   images: {
     unoptimized: true,
