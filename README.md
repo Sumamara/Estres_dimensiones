@@ -40,4 +40,4 @@ VITE_SUPABASE_ANON_KEY=tu_key
 npm run dev
 ```
 
-El proyecto está configurado con `basePath: '/estres_dimensiones'` ideal para despliegues como GitHUb Pages.
+El proyecto está configurado para poder utilizar una ruta base a través de la variable de entorno `RUTA_BASE` en caso de requerirlo (por ejemplo, para despliegues en subdirectorios en Netlify).
